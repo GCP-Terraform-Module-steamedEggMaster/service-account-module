@@ -8,13 +8,9 @@ import (
 )
 
 func TestTerraformModule(t *testing.T) {
-	project := os.Getenv("GCP_PROJECT")
-
 	// Terraform 모듈 옵션 설정
 	terraformOptions := &terraform.Options{
 		TerraformDir: "../examples/create-test", // 모듈 경로
-
-		"project" : project,
 	}
 
 	// Terraform Destroy 실행 (테스트 완료 후 정리)
