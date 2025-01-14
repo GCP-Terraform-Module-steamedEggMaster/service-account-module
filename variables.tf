@@ -26,3 +26,9 @@ variable "project" {
   type        = string
   default     = null
 }
+
+variable "create_ignore_already_exists" {
+  description = "중복된 서비스 계정 생성 시 무시할지 여부 (Optional, 기본값: false)"
+  type        = bool
+  default     = false
+}
