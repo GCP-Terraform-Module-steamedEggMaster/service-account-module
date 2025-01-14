@@ -6,5 +6,4 @@ resource "google_service_account" "service_account" {
   display_name                 = var.display_name                 # 서비스 계정 표시 이름 (Optional)
   description                  = var.description                  # 서비스 계정 설명 (Optional)
   disabled                     = var.disabled                     # 서비스 계정 비활성화 여부 (Optional, 기본값: false)
-  create_ignore_already_exists = var.create_ignore_already_exists # 중복 생성 시 무시 여부 (Optional, 기본값: false)
 }
