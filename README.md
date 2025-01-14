@@ -60,7 +60,7 @@ GCP에서 **서비스 계정(Service Account)**을 생성하고 관리하기 위
 
 ```hcl
 module "service_account" {
-  source = "git::https://github.com/your-repo/service-account-module.git?ref=v1.0.0"
+  source = "git::https://github.com/GCP-Terraform-Module-steamedEggMaster/service-account-module.git?ref=v1.0.0"
 
   account_id                   = "my-service-account"
   display_name                 = "My Service Account"
