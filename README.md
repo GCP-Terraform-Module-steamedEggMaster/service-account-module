@@ -110,6 +110,7 @@ module "service_account" {
   ├── main.tf             # 모듈의 핵심 구현
   ├── variables.tf        # 입력 변수 정의
   ├── outputs.tf          # 출력 정의
+  ├── versions.tf         # 버전 정의
   ├── README.md           # 문서화 파일
   ```
 <br>
